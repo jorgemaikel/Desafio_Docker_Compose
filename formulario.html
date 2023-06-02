@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>--Fomulário--</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="estilo.css" media="all" />
+	<script src="back.js"></script>
+</head>
+
+<body>
+	<form name="forms">
+		<h1>Preencha os campos com os dados necessários</h1>
+
+		<br>
+		<label for="nome">Nome</label>
+		<input type="text" id="name" placeholder="Seu nome" required="required" name="nome" />
+
+		<br>
+		<label for="fone">Telefone</label>	
+		<input type="telefone" id="fone" placeholder="(XX) x xxxx-xxxx" name="fone" />
+		
+		<br>
+		<label for="email">Email</label>	
+		<input type="email" id="e-mail" placeholder="seuemail@email.com" name="email" />
+
+		<br>
+		<label for="nascimento">Data de Nascimento</label>	
+		<input type="date" id="nascimento" name="nascimento" />
+
+		<br>
+		<input type="submit" class="enviar" onclick="Enviar();"value="Enviar" />
+
+	</form>
+</body>
+
+</html>
